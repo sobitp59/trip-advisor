@@ -45,7 +45,7 @@
 
 
 /* TRIP ADVISOR */
-.continents, .countries{
+.continents, .countries, .destinations{
   width: 80%;
   display: flex;
   justify-content: space-around;
@@ -53,11 +53,29 @@
   gap: 1rem;
 }
 
-.continents__lists, .countries__lists{
+.continents__lists, .countries__lists, .destinations__lists{
   list-style: none;
   border: 2px solid rgba(0, 0, 0, 0.199);
 }
 
-.continents__image, .countries__image{
+.continents__image, .countries__image, .destinations__image{
   width: 250px;
+}
+
+
+.destination{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  border: 2px solid  rgba(0, 0, 0, 0.158);
+}
+
+.destination__image{
+  width: 100%;
+}
+
+.destination__details{
+  text-align: left;
 }
